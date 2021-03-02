@@ -18,7 +18,7 @@ namespace Microsoft.BotBuilderSamples.Dialog
     public class QnAMakerBaseDialog : QnAMakerDialog
     {
         // Dialog Options parameters
-        public const string DefaultNoAnswer = "No se han encontrado respuestas. porfavor llena el [formilario](https://ncv.microsoft.com/sCnxrwWE0Y) de ayuda";
+        public const string DefaultNoAnswer = "No se han encontrado respuestas para su pregunta en la base de datos. Porfavor llena el [formilario](https://ncv.microsoft.com/sCnxrwWE0Y) de ayuda";
         public const string DefaultCardTitle = "Quizo decir:";
         public const string DefaultCardNoMatchText = "Ninguno de los anteriores.";
         public const string DefaultCardNoMatchResponse = "Gracias por su retroalimentación.";
