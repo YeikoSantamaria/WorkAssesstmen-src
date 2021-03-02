@@ -44,7 +44,7 @@ namespace Microsoft.BotBuilderSamples.Bots
             {
                 if (member.Id != turnContext.Activity.Recipient.Id)
                 {
-                    await turnContext.SendActivityAsync(MessageFactory.Text($"Hello!"), cancellationToken);
+                    await turnContext.SendActivityAsync(MessageFactory.Text($"!Hola soy Nora! y estoy aqui para ayudarte con cualquier duda que tengas."), cancellationToken);
                 }
             }
         }
